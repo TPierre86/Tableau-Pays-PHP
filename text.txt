@@ -1,0 +1,26 @@
+Page acceuil :
+affiche Monde = continent / pas de select de region
+moyenne ou somme des info par continent <-
+dernière ligne = Total
+
+Clique dans select continent = liste des continents pas ordre alphabétique
+
+Clique sur un des continents dans le select continent = affiche région du continent selectionné 
++ total info pour le continent
+-> fais apparaitre le select region sur !aucune selection!
+(si monde ou amérique septentrionale pas de select région)
+
+
+Clique sur select region = liste des regions de ce continent uniquement (ordre alphabétique)
+
+clique sur une region du select region = affiche les pays de la region concerné 
++ total info region
+
+___________________________________________________________________________________________________
+
+Procédure pour arriver au résultat attendu :
+
+1 importer donné de la Bdd
+2 archéture HTML
+3 'IF ELSE' pour gérer l'affichage du tableau
+4 apparition du select pour les régions
